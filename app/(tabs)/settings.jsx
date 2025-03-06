@@ -176,7 +176,7 @@ const Settings = () => {
         "Error submitting form:",
         error.response ? error.response.data : error
       );
-      Alert.alert("Failed to update user");
+      Alert.alert("Failed to Deleted user");
     } finally {
       setLoading(false);
     }
