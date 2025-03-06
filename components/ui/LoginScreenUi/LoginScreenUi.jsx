@@ -83,7 +83,7 @@ const LoginScreenUi = () => {
         const userData = JSON.stringify(response?.data?.user);
         await AsyncStorage.setItem("user", userData);
 
-        router.replace("/(tabs)/home");
+        router.replace("/radio");
       }
     } catch (error) {
       console.error(

@@ -15,20 +15,6 @@ export default function HomeLayout() {
       }}
     >
       <Tabs.Screen
-        name="home"
-        options={{
-          headerShown: true,
-          title: "Home",
-          headerStyle: { backgroundColor: "#38BF64" },
-          headerTintColor: "#fff",
-          headerTitleStyle: { fontFamily: "Poppins-Bold" },
-          tabBarIcon: ({ color }) => (
-            <FontAwesome name="home" size={24} color={color} />
-          ),
-        }}
-      />
-
-      <Tabs.Screen
         name="radio"
         options={{
           headerShown: true,
@@ -80,20 +66,6 @@ export default function HomeLayout() {
           headerTitleStyle: { fontFamily: "Poppins-Bold" },
           tabBarIcon: ({ color }) => (
             <MaterialIcons name="message" size={24} color={color} />
-          ),
-        }}
-      />
-
-      <Tabs.Screen
-        name="profile"
-        options={{
-          headerShown: true,
-          title: "Profile",
-          headerStyle: { backgroundColor: "#38BF64" },
-          headerTintColor: "#fff",
-          headerTitleStyle: { fontFamily: "Poppins-Bold" },
-          tabBarIcon: ({ color }) => (
-            <AntDesign name="profile" size={24} color={color} />
           ),
         }}
       />

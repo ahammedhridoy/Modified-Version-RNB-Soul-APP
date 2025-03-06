@@ -20,7 +20,7 @@ export default function Index() {
 
   return (
     <SafeAreaView>
-      {user ? <Redirect href="/home" /> : <Redirect href="/login" />}
+      {user ? <Redirect href="/radio" /> : <Redirect href="/login" />}
     </SafeAreaView>
   );
 }
